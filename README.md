@@ -24,7 +24,7 @@ Stop hardcoded secrets, SQL injections, and logic bugs *before* they merge.
 * **Framework:** React + Vite
 * **Styling:** Tailwind CSS
 * **Icons:** Lucide React
-* **State & Sync:** React Hooks with live short-polling / WebSocket fallback
+* **State & Sync:** React Hooks with live WebSocket 
 
 ### Backend (AI Engine)
 * **Framework:** Python (FastAPI)
