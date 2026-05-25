@@ -74,6 +74,33 @@ npm run dev
 3. **Trigger Analysis:** Create a new branch, write some code (or inject a test vulnerability), and open a Pull Request.
 4. **Watch it Work:** Alaris will intercept the webhook, analyze the diff, and push the health metrics straight to your live dashboard.
 
+## 📸 See it in Action
+
+### 1. Secure Workspace Connection
+Users connect their workspace securely using a GitHub Personal Access Token (PAT), requiring zero complex backend authentication setups.
+> <img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/3d27f0ab-f7a2-41c6-9d25-28d6fb248f06" />
+
+
+### 2. Real-Time Webhook Interception
+The moment a PR is opened, Alaris PR Lens intercepts the payload and begins its analysis.
+> <img width="1919" height="956" alt="image" src="https://github.com/user-attachments/assets/c73a8509-655e-4cef-b7f9-e649668fad9f" />
+
+
+### 3. Catching Critical Vulnerabilities
+The AI successfully identifies hardcoded secrets, SQL injection attempts, and deprecated algorithms, mapping them directly to the exact file and line number.
+> <img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/8469203d-1cd6-4fe6-9132-53b1a81243d8" />
+
+
+### 4. Code Remediation & Health Restoration
+Once the developer pushes a fix, Alaris PR Lens re-scans the diff and updates the repository health score in real-time.
+> <img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/f6d5c6d7-0858-428d-9e39-5b7899f800ed" />
+
+
+### 5. Seamless GitHub Integration
+Everything is triggered natively via GitHub Webhooks, requiring no change to the developer's standard git workflow.
+> <img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/256f105d-93e3-4072-b251-40e6b583f66f" />
+
+
 ---
 
 ## 📄 License
